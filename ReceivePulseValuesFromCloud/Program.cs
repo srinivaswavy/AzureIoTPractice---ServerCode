@@ -11,7 +11,7 @@ namespace ReceivePulseValuesFromCloud
     class Program
     {
 		
-        static string connectionString = "<IoTHubOwnerConnectionString>";
+        static string connectionString = "HostName=PatientMR.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=HD0aQJTKXryo/MuLUMfLsE4LrPjtWlIEtdBGNCD5Sg4=";
         static string iotHubD2cEndpoint = "messages/events";
         static EventHubClient eventHubClient;
         static void Main(string[] args)
